@@ -6806,7 +6806,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#exampleModalLabel[data-v-41ddb512] {\n  text-align: center;\n}\n.modal-dialog[data-v-41ddb512] {\n  margin-top: 215px;\n}\n.btn-warning[data-v-41ddb512] {\n  background-color: #ED6C02!important;\n  color: white!important;\n}\n#emailHelp[data-v-41ddb512] {\n  color: red!important;\n}\n#invite[data-v-41ddb512] {\n    margin-left: -454px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#exampleModalLabel[data-v-41ddb512] {\n  text-align: center;\n}\n.modal-dialog[data-v-41ddb512] {\n  margin-top: 215px;\n}\n.btn-warning[data-v-41ddb512] {\n  background-color: #ED6C02!important;\n  color: white!important;\n}\n#emailHelp[data-v-41ddb512] {\n  color: red!important;\n}\n#invite[data-v-41ddb512] {\n    margin-right: auto;\n    margin-left: 10px;\n}\n#invite button[data-v-41ddb512] {\n    color: #828282 !important;\n    font-weight: bolder;\n    font-size: 20px;\n    font-family: var(--primary-font), sans-serif !important;\n    text-transform: capitalize !important;\n    margin-top: -8px !important;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -14619,28 +14619,20 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "strong",
-      {
-        staticStyle: { "margin-right": "auto", "margin-left": "10px" },
-        attrs: { id: "invite" },
-      },
-      [
-        _c(
-          "button",
-          {
-            staticClass: "btn",
-            staticStyle: { color: "#828282" },
-            attrs: {
-              type: "button",
-              "data-toggle": "modal",
-              "data-target": "#exampleModal",
-            },
+    return _c("strong", { attrs: { id: "invite" } }, [
+      _c(
+        "button",
+        {
+          staticClass: "btn",
+          attrs: {
+            type: "button",
+            "data-toggle": "modal",
+            "data-target": "#exampleModal",
           },
-          [_vm._v("\n                 INVITE\n            ")]
-        ),
-      ]
-    )
+        },
+        [_vm._v("\n                 Invite\n            ")]
+      ),
+    ])
   },
   function () {
     var _vm = this

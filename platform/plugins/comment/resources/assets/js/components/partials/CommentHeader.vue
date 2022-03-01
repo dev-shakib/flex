@@ -9,9 +9,9 @@
                 </tabs>
             </strong>
 
-            <strong id="invite" style="margin-right: auto; margin-left: 10px;">
-                <button style="color: #828282" type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
-                     INVITE
+            <strong id="invite">
+                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                     Invite
                 </button>
             </strong>
 
@@ -207,7 +207,18 @@ export default {
     color: red!important;
   }
   #invite {
-      margin-left: -454px;
+      margin-right: auto;
+      margin-left: 10px;
+
+
+  }
+  #invite button {
+      color: #828282 !important;
+      font-weight: bolder;
+      font-size: 20px;
+      font-family: var(--primary-font), sans-serif !important;
+      text-transform: capitalize !important;
+      margin-top: -8px !important;
   }
 </style>
 
