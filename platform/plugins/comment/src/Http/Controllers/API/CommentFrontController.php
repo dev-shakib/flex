@@ -277,7 +277,7 @@ class CommentFrontController extends BaseController
     {
         return Validator::make($data, [
             'reference'         => 'required',
-            'comment'           => 'required|min:5'
+            'comment'           => 'required|min:1'
         ]);
     }
     public function usercheck(Request $request) {
