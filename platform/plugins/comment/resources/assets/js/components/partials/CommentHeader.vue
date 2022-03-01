@@ -10,7 +10,7 @@
             </strong>
 
             <strong id="invite" style="margin-right: auto; margin-left: 10px;">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <button style="color: #828282" type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
                      INVITE
                 </button>
             </strong>

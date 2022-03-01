@@ -14629,7 +14629,8 @@ var staticRenderFns = [
         _c(
           "button",
           {
-            staticClass: "btn btn-primary",
+            staticClass: "btn",
+            staticStyle: { color: "#828282" },
             attrs: {
               type: "button",
               "data-toggle": "modal",
